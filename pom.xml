@@ -3,7 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.tv4</groupId>
 	<artifactId>sqloader</artifactId>
-	<packaging>jar</packaging>
 	<version>1.0.1</version>
 	<name>sqloader</name>
 	<url>http://maven.apache.org</url>
