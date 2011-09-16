@@ -4,7 +4,7 @@
 	<groupId>se.tv4</groupId>
 	<artifactId>sqloader</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>sqloader</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -21,4 +21,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>emma-maven-plugin</artifactId>
+				<version>1.0-alpha-3</version>
+			</plugin>
+		</plugins>
+	</reporting>
 </project>
